@@ -13,6 +13,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
 
     /// <summary>
+    /// 呈现框的视觉元素。
     /// A visual element that renders a box.
     /// </summary>
     /// <remarks>
@@ -74,6 +75,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 获取或设置框的中心。
         /// Gets or sets the center of the box.
         /// </summary>
         /// <value>The center.</value>
@@ -91,6 +93,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 获取或设置高度（沿局部z轴）
         /// Gets or sets the height (along local z-axis).
         /// </summary>
         /// <value>The height.</value>
@@ -108,6 +111,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 获取或设置框的长度（沿局部x轴）。
         /// Gets or sets the length of the box (along local x-axis).
         /// </summary>
         /// <value>The length.</value>
@@ -141,6 +145,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 获取或设置框的宽度（沿局部y轴）。
         /// Gets or sets the width of the box (along local y-axis).
         /// </summary>
         /// <value>The width.</value>

@@ -16,7 +16,7 @@ namespace UpDirectionDemo
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    [Example(null, "Test of y-up in HelixViewport3D.")]
+    [Example(null, "在HelixViewport3D中测试y-up。Test of y-up in HelixViewport3D.")]
     public partial class MainWindow : Window
     {
         public MainWindow()

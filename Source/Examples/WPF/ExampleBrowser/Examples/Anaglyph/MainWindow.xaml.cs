@@ -21,7 +21,7 @@ namespace AnaglyphDemo
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    [Example(null, "Showing a stereo view using the AnaglyphView3D control.")]
+    [Example(null, "使用Anaglyph View 3D控件显示立体视图。Showing a stereo view using the AnaglyphView3D control.")]
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -37,6 +37,12 @@ namespace AnaglyphDemo
             Loaded += OnLoaded;
         }
 
+        /// <summary>
+        /// 添加立方体
+        /// </summary>
+        /// <param name="c"></param>
+        /// <param name="brush"></param>
+        /// <param name="x"></param>
         private void AddCubes(Visual3DCollection c, Brush brush, double x)
         {
             for (double y = -5; y <= 5; y += 10)

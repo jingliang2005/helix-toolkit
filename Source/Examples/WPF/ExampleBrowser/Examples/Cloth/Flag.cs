@@ -11,15 +11,36 @@ using System.ComponentModel;
 
 namespace ClothDemo
 {
+    /// <summary>
+    /// 旗帜。实现接口：INotifyPropertyChanged
+    /// </summary>
     public class Flag : INotifyPropertyChanged
     {
+        /// <summary>
+        /// 风速
+        /// </summary>
         public double WindSpeed { get; set; }
+        /// <summary>
+        /// 风向。
+        /// </summary>
         public double WindDirection { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         public double FPS { get; private set; }
 
+        /// <summary>
+        /// Verlet积分器。
+        /// </summary>
         private readonly VerletIntegrator integrator;
+        /// <summary>
+        /// 。
+        /// </summary>
         public Vector3D Gravity = new Vector3D(0, 0, -9);
 
+        /// <summary>
+        /// 风
+        /// </summary>
         public Vector3D Wind
         {
             get
@@ -29,6 +50,9 @@ namespace ClothDemo
             }
         }
 
+        /// <summary>
+        /// 减震
+        /// </summary>
         public double Damping { get; set; }
 
         private int m = 48;
@@ -51,16 +75,35 @@ namespace ClothDemo
             Mass = 0.8;
         }
 
+        /// <summary>
+        /// 网格（几何3D网格，MeshGeometry3D）
+        /// </summary>
         public MeshGeometry3D Mesh { get; set; }
+        /// <summary>
+        /// 材料。
+        /// </summary>
         public Material Material { get; set; }
 
+        /// <summary>
+        /// 高度。
+        /// </summary>
         public double Height { get; set; }
+        /// <summary>
+        /// 长度。
+        /// </summary>
         public double Length { get; set; }
+        /// <summary>
+        /// 旗帜的杆高。
+        /// </summary>
         public double PoleHeight { get; set; }
-
+        /// <summary>
+        /// 
+        /// </summary>
         private double Mass { get; set; }
 
-
+        /// <summary>
+        /// 初始化。
+        /// </summary>
         public void Init()
         {
             CreateInitialMesh();
@@ -87,6 +130,9 @@ namespace ClothDemo
                 }
         }
 
+        /// <summary>
+        /// 创建初始网格。
+        /// </summary>
         private void CreateInitialMesh()
         {
             var pts = new Point3D[n, m];
@@ -140,6 +186,10 @@ namespace ClothDemo
             }
         }
 
+        /// <summary>
+        /// 更新资料。
+        /// </summary>
+        /// <param name="dt"></param>
         public void Update(double dt)
         {
             UpdateFps(dt);
@@ -163,6 +213,9 @@ namespace ClothDemo
             }
         }
 
+        /// <summary>
+        /// 变换。积分器转移位置（变换）。
+        /// </summary>
         public void Transfer()
         {
             integrator.TransferPositions(Mesh);

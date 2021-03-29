@@ -15,6 +15,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
 
     /// <summary>
+    /// 表示包含一个<see cref ="GeometryModel3D" />以及前后<see cref =" Material"/>的元素的基类。
     /// Represents a base class for elements that contain one <see cref="GeometryModel3D"/> and front and back <see cref="Material"/>s.
     /// </summary>
     /// <remarks>

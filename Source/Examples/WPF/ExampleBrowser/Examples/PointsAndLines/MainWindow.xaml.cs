@@ -29,19 +29,37 @@ namespace PointsAndLinesDemo
     /// <summary>
     /// Interaction logic for the main window.
     /// </summary>
-    [Example(null, "Renders text and lines.")]
+    [Example(null, "渲染文本和线条Renders text and lines.")]
     [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1600:ElementsMustBeDocumented", Justification = "Reviewed. Suppression is OK here.")]
     public partial class MainWindow : INotifyPropertyChanged
     {
         private readonly Stopwatch watch = new Stopwatch();
 
+        /// <summary>
+        /// 点的数量。
+        /// </summary>
         private int numberOfPoints;
 
+        /// <summary>
+        /// 线条视觉3D
+        /// </summary>
         private LinesVisual3D linesVisual;
+        /// <summary>
+        /// 点视觉3D
+        /// </summary>
         private PointsVisual3D pointsVisual;
+        /// <summary>
+        /// 屏幕空间线3D
+        /// </summary>
         private ScreenSpaceLines3D screenSpaceLines;
+        /// <summary>
+        /// 电线
+        /// </summary>
         private WireLines wireLines;
 
+        /// <summary>
+        /// point3d 的有序集合。
+        /// </summary>
         private Point3DCollection points;
 
         public MainWindow()
@@ -93,6 +111,12 @@ namespace PointsAndLinesDemo
             }
         }
 
+        /// <summary>
+        /// 产生一组点。
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="time"></param>
+        /// <returns></returns>
         public static IEnumerable<Point3D> GeneratePoints(int n, double time)
         {
             const double R = 2;
@@ -110,6 +134,10 @@ namespace PointsAndLinesDemo
             }
         }
 
+        /// <summary>
+        /// 提出属性已更改
+        /// </summary>
+        /// <param name="property"></param>
         protected void RaisePropertyChanged(string property)
         {
             var handler = this.PropertyChanged;
@@ -119,6 +147,11 @@ namespace PointsAndLinesDemo
             }
         }
 
+        /// <summary>
+        /// 构图目标渲染
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void OnCompositionTargetRendering(object sender, EventArgs e)
         {
             if (this.ShowLinesVisual3D && this.linesVisual == null)

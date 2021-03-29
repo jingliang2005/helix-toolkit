@@ -39,6 +39,7 @@ namespace ExampleBrowser
         public IList<Example> Examples { get; private set; }
 
         /// <summary>
+        /// 创建指定窗口的缩略图。
         /// Creates a thumbnail of the specified window.
         /// </summary>
         /// <param name="window">The window.</param>

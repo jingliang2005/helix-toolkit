@@ -21,7 +21,7 @@ namespace VoxelDemo
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    [Example(null, "Edit a voxel scene by clicking the sides of the voxels.")]
+    [Example(null, "通过单击体素的侧面来编辑体素场景。Edit a voxel scene by clicking the sides of the voxels.")]
     public partial class MainWindow : Window
     {
         private readonly MainViewModel vm = new MainViewModel();

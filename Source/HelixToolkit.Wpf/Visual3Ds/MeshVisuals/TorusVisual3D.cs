@@ -2,8 +2,9 @@
 {
     using System.Windows;
     using System.Windows.Media.Media3D;
-    
+
     /// <summary>
+    /// 视觉元素，显示由两个直径（圆锥形及其管）定义的圆环。
     /// A visual element that shows a torus defined by two diameters (torus and it's tube).
     /// </summary>
     public class TorusVisual3D : MeshElement3D

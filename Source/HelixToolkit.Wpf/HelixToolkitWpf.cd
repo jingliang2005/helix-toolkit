@@ -1,0 +1,1444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HelixToolkit.Wpf.CuttingEarsTriangulator" Collapsed="true">
+    <Position X="52.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAABAAAAAAAAAAAAIAQAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>E:\anzhenghe\gitlab-azh\chongqinglin\lasercutting2d\LaserCutting2D\Simulation\helix-toolkit\Source\HelixToolkit.Shared\Geometry\CuttingEarsTriangulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.SweepLinePolygonTriangulator" Collapsed="true">
+    <Position X="48.75" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAQEAAAAAAAAAAAAoAQEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\anzhenghe\gitlab-azh\chongqinglin\lasercutting2d\LaserCutting2D\Simulation\helix-toolkit\Source\HelixToolkit.Shared\Geometry\SweepLinePolygonTriangulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.StatusHelper" Collapsed="true">
+    <Position X="40" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAIAAAA=</HashCode>
+      <FileName>E:\anzhenghe\gitlab-azh\chongqinglin\lasercutting2d\LaserCutting2D\Simulation\helix-toolkit\Source\HelixToolkit.Shared\Geometry\SweepLinePolygonTriangulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.StatusHelperElement" Collapsed="true">
+    <Position X="41.75" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAABQAAAAAAAAAAAAAAAAAAAABAAAAAAQAAAAAAA=</HashCode>
+      <FileName>E:\anzhenghe\gitlab-azh\chongqinglin\lasercutting2d\LaserCutting2D\Simulation\helix-toolkit\Source\HelixToolkit.Shared\Geometry\SweepLinePolygonTriangulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.PolygonPoint" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABAIAAAAAgAQEAADAAgAAAAAAAQgAgAFCAAAAYAA=</HashCode>
+      <FileName>E:\anzhenghe\gitlab-azh\chongqinglin\lasercutting2d\LaserCutting2D\Simulation\helix-toolkit\Source\HelixToolkit.Shared\Geometry\SweepLinePolygonTriangulator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.PolygonEdge" Collapsed="true">
+    <Position X="47" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAAAAAAAEAAAAAAACAAAAAAAAAAACABAAAgA=</HashCode>
+      <FileName>E:\anzhenghe\gitlab-azh\chongqinglin\lasercutting2d\LaserCutting2D\Simulation\helix-toolkit\Source\HelixToolkit.Shared\Geometry\SweepLinePolygonTriangulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.PolygonData" Collapsed="true">
+    <Position X="45.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAgAAgAAIAAAAAAAAAAAAAAACAAAwAAAAAAA=</HashCode>
+      <FileName>E:\anzhenghe\gitlab-azh\chongqinglin\lasercutting2d\LaserCutting2D\Simulation\helix-toolkit\Source\HelixToolkit.Shared\Geometry\SweepLinePolygonTriangulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.HelixToolkitException" Collapsed="true">
+    <Position X="41.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\anzhenghe\gitlab-azh\chongqinglin\lasercutting2d\LaserCutting2D\Simulation\helix-toolkit\Source\HelixToolkit.Shared\HelixToolkitException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.DrawingContextExtensions" Collapsed="true">
+    <Position X="41.75" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adorners\DrawingContextExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.RectangleAdorner" Collapsed="true">
+    <Position X="52.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAIAAAAAI=</HashCode>
+      <FileName>Adorners\RectangleAdorner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TargetSymbolAdorner" Collapsed="true">
+    <Position X="50.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Adorners\TargetSymbolAdorner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.CameraController" Collapsed="true">
+    <Position X="52.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>mzAziKAJVNAPp+b9HKTOjGrRZiO1wTGvqmV5tuEvJoc=</HashCode>
+      <FileName>Controls\CameraController\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.CameraSetting" Collapsed="true">
+    <Position X="38.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAgQQAAAEAAAAAAAAACAAQAAACAAAA=</HashCode>
+      <FileName>Controls\CameraController\CameraSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ManipulationEventArgs" Collapsed="true">
+    <Position X="47" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\CameraController\ManipulationEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.MouseGestureHandler" Collapsed="true">
+    <Position X="14" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAgCIACAARAEBgYIAEBAqAAQCRKSAYAAIAAQAIgGAAA=</HashCode>
+      <FileName>Controls\CameraController\MouseGestureHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.PanHandler" Collapsed="true">
+    <Position X="10.75" Y="18.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAAAAAgAAAEAAAAAAAAICAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Controls\CameraController\PanHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.RotateHandler" Collapsed="true">
+    <Position X="13" Y="18.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAIQAAAgAAACAAIACEABAgAAEAKCDAAAEAAQAAAAAAI=</HashCode>
+      <FileName>Controls\CameraController\RotateHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ZoomHandler" Collapsed="true">
+    <Position X="15.25" Y="18.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAIBAIACCAIAEEAAIAAAAAIgAAAAABAQAAAAAAA=</HashCode>
+      <FileName>Controls\CameraController\ZoomHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ZoomRectangleHandler" Collapsed="true">
+    <Position X="17.5" Y="18.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAIAAEAAAAAAAAIAAAAAAAASAAAAAgA=</HashCode>
+      <FileName>Controls\CameraController\ZoomRectangleHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.CategorizedColorAxis" Collapsed="true">
+    <Position X="0.5" Y="24" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAgAAIAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\ColorAxis\CategorizedColorAxis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ColorAxis" Collapsed="true">
+    <Position X="1.75" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABEQAAAAQBBEAAgAQoAgACAgAAAQABAAAAAgEAAEAA=</HashCode>
+      <FileName>Controls\ColorAxis\ColorAxis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.RangeColorAxis" Collapsed="true">
+    <Position X="2.75" Y="24" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIASACAAEQAEAEAQAAAgQAAEEAAAIAAIAAAAAAAAAA=</HashCode>
+      <FileName>Controls\ColorAxis\RangeColorAxis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.HelixViewport3D" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>uxs7nPNGdP5/80v5JrzcrvPzJn+X89AzZzHOvne/x18=</HashCode>
+      <FileName>Controls\HelixViewport3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.InputBindingX" Collapsed="true">
+    <Position X="50.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAACAAAAAAAAAAAAAAAAIAAEAAAAAA=</HashCode>
+      <FileName>Controls\InputBindingX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.AnaglyphView3D" Collapsed="true">
+    <Position X="7.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAggAAAAAAAgAAAAAAIAEAACIAAAAAAAAAA=</HashCode>
+      <FileName>Controls\Stereo\AnaglyphView3D.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.InterlacedView3D" Collapsed="true">
+    <Position X="0.75" Y="18" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAggABAAAAAAAAAAAAIAEAACIAAAAAIAAAA=</HashCode>
+      <FileName>Controls\Stereo\InterlacedView3D.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.StereoControl" Collapsed="true">
+    <Position X="4" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBMAAEAAAgAAAAAA1AgGAAAAACAggAgQJDADAAEA=</HashCode>
+      <FileName>Controls\Stereo\StereoControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.StereoView3D" Collapsed="true">
+    <Position X="3" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\Stereo\StereoView3D.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.WiggleView3D" Collapsed="true">
+    <Position X="5.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAACAAAQAAAACAAAgABIAAAAAAAhAAAIAAAAAA=</HashCode>
+      <FileName>Controls\Stereo\WiggleView3D.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.EnumToBooleanConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Converters\EnumToBooleanConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.LinearConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIQAAAAAAAgAAAAAAAAAAAMAAAA=</HashCode>
+      <FileName>Converters\LinearConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.NotNullToVisibilityConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Converters\NotNullToVisibilityConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.SelfProvider" Collapsed="true">
+    <Position X="38.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Converters\SelfProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.StringToBooleanConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Converters\StringToBooleanConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BitmapExporter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAgAQAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Exporters\BitmapExporter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ColladaExporter" Collapsed="true">
+    <Position X="17" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAABAAAAAIAYgAAABAAEQAIgAEIQAgAAKADAIAA=</HashCode>
+      <FileName>Exporters\ColladaExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Exporter&lt;T&gt;" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAABAAAAAAAAgBAAABAAgAEAAAAAAIECAAAA=</HashCode>
+      <FileName>Exporters\Exporter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Exporters" Collapsed="true">
+    <Position X="50.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAABAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exporters\Exporters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.KerkytheaExporter" Collapsed="true">
+    <Position X="19.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QIBAAQACDABIIASAAAUgG8SATAClAEkIAEEgIFCAIAA=</HashCode>
+      <FileName>Exporters\KerkytheaExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ObjExporter" Collapsed="true">
+    <Position X="1.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAEAAAgQAQIAggEMAIAwAAQAEAAAAFAIACAAAk=</HashCode>
+      <FileName>Exporters\ObjExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.PovRayExporter" Collapsed="true">
+    <Position X="3.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAgAEAAAAAAIACAAAA=</HashCode>
+      <FileName>Exporters\PovRayExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.RenderManExporter" Collapsed="true">
+    <Position X="5.75" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAgAEAAAAAAIACAAAA=</HashCode>
+      <FileName>Exporters\RenderManExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.StlExporter" Collapsed="true">
+    <Position X="8" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAABAAAAEAAIAAAIASAAAA=</HashCode>
+      <FileName>Exporters\StlExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.VrmlExporter" Collapsed="true">
+    <Position X="10.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAIACAAAA=</HashCode>
+      <FileName>Exporters\VrmlExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.X3DExporter" Collapsed="true">
+    <Position X="12.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAABAAAAEAAAAAAIACEAAA=</HashCode>
+      <FileName>Exporters\X3DExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.XamlExporter" Collapsed="true">
+    <Position X="14.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAABAAAAAAAAEAEAAAAAACAAAA=</HashCode>
+      <FileName>Exporters\XamlExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.AnimationExtensions" Collapsed="true">
+    <Position X="40" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExtensionMethods\AnimationExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Matrix3DExtensions" Collapsed="true">
+    <Position X="54" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>ExtensionMethods\Matrix3DExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Point3DExtensions" Collapsed="true">
+    <Position X="40" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQCAACAAAABAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ExtensionMethods\Point3DExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.StringExtensions" Collapsed="true">
+    <Position X="45.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQCAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExtensionMethods\StringExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Vector3DExtensions" Collapsed="true">
+    <Position X="48.75" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>ExtensionMethods\Vector3DExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BoundingSphere" Collapsed="true">
+    <Position X="48.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIgCAACAAAAAAQBAAAAAAAAAAAAAAAgAAAAAAYAIA=</HashCode>
+      <FileName>Geometry\BoundingSphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.LineSegment" Collapsed="true">
+    <Position X="43.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAGQAAAAgAAAAAAAACA=</HashCode>
+      <FileName>Geometry\LineSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Mesh3D" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiIAAIIkAAEAAAAAAIgEAAIAIAAAAEACAAEAAABA=</HashCode>
+      <FileName>Geometry\Mesh3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Plane3D" Collapsed="true">
+    <Position X="38.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAIAgAAAAIAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Geometry\Plane3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Polygon" Collapsed="true">
+    <Position X="41.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geometry\Polygon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Polygon3D" Collapsed="true">
+    <Position X="43.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAEAAQAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geometry\Polygon3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Ray3D" Collapsed="true">
+    <Position X="50.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAQAAAIAAAACAAAAAAAAAAAAAAAQAAAAgAAAA=</HashCode>
+      <FileName>Geometry\Ray3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Triangle" Collapsed="true">
+    <Position X="47" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAgAABABAAAAAAAAAQAAAAGQAABAgAAAAAAAAAA=</HashCode>
+      <FileName>Geometry\Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.AttachedProperties" Collapsed="true">
+    <Position X="41.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAA=</HashCode>
+      <FileName>Helpers\AttachedProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BrushHelper" Collapsed="true">
+    <Position X="50.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAAAAAAAAAIAAAAABAAAAAAAAECAAAQAAAAAAA=</HashCode>
+      <FileName>Helpers\BrushHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.CameraHelper" Collapsed="true">
+    <Position X="54" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAoAAAAARAAIAoAAAAAAAiAAAGgAAAgAAASAAAI=</HashCode>
+      <FileName>Helpers\CameraHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.CanonicalSplineHelper" Collapsed="true">
+    <Position X="40" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\CanonicalSplineHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ColorHelper" Collapsed="true">
+    <Position X="45.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQCAIAFAAAAAAAAAAAAAgAQCAAAAAAgAAAAACAAEAAA=</HashCode>
+      <FileName>Helpers\ColorHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ContourHelper" Collapsed="true">
+    <Position X="48.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQADBBEAAABAAQoAAAAACQQBEAACkAQAIgAgAAAA=</HashCode>
+      <FileName>Helpers\ContourHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.DependencyPropertyEx" Collapsed="true">
+    <Position X="54" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\DependencyPropertyEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.DoubleKeyDictionary&lt;K, T, V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAEABAAiAAABAAAAAQAAAAEAAAAAABCAAA=</HashCode>
+      <FileName>Helpers\DoubleKeyDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.DoubleKeyPairValue&lt;K, T, V&gt;" Collapsed="true">
+    <Position X="40" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAASAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Helpers\DoubleKeyDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ElementSortingHelper" Collapsed="true">
+    <Position X="43.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAgBCAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\ElementSortingHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.GradientBrushes" Collapsed="true">
+    <Position X="54" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAEAAAAQAAAAAAAAAAAAEAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\GradientBrushes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.GZipHelper" Collapsed="true">
+    <Position X="40" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\GZipHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.LoopSubdivision" Collapsed="true">
+    <Position X="45.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABcAAgAAAAEAAAAgQAAEAAAEAAAUAAAAAAIAAAIAAEQ=</HashCode>
+      <FileName>Helpers\LoopSubdivision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.MaterialHelper" Collapsed="true">
+    <Position X="50.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAQABAAAABAAAAABQAAAAA=</HashCode>
+      <FileName>Helpers\MaterialHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Materials" Collapsed="true">
+    <Position X="52.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCCHAhBAAAAAIhBAAAQAQAAAFCEAHAAAEgCAADCAAIE=</HashCode>
+      <FileName>Helpers\Materials.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.MeshBuilder" Collapsed="true">
+    <Position X="40" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oDBgSAzFEQBHIBAhCoIAYIEBAqFMHYASRIk0AABIQIk=</HashCode>
+      <FileName>Helpers\MeshBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.MeshGeometryHelper" Collapsed="true">
+    <Position X="41.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQQAAACAAACAAAAQAABAAABIAAAEAAAAAAAAAAABICA=</HashCode>
+      <FileName>Helpers\MeshGeometryHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Model3DHelper" Collapsed="true">
+    <Position X="47" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Model3DHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Billboard" Collapsed="true">
+    <Position X="43.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAgAAAQAAAAAAAIAQAACACAAAAAAAA=</HashCode>
+      <FileName>Helpers\ScreenSpace\Billboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BillboardGeometryBuilder" Collapsed="true">
+    <Position X="8.75" Y="21.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\ScreenSpace\BillboardGeometryBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.CohenSutherlandClipping" Collapsed="true">
+    <Position X="43.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAAAAAAIAgAAABEAAEAAAAAAAAAgAAACAEAAEQA=</HashCode>
+      <FileName>Helpers\ScreenSpace\CohenSutherlandClipping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.LineGeometryBuilder" Collapsed="true">
+    <Position X="11" Y="21.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\ScreenSpace\LineGeometryBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.PointGeometryBuilder" Collapsed="true">
+    <Position X="13.25" Y="21.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\ScreenSpace\PointGeometryBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ScreenGeometryBuilder" Collapsed="true">
+    <Position X="11" Y="20.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAAAAAAEAABMAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Helpers\ScreenSpace\ScreenGeometryBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.StereoHelper" Collapsed="true">
+    <Position X="43.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAABAAEAAAAAAIAAA=</HashCode>
+      <FileName>Helpers\StereoHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TextCreator" Collapsed="true">
+    <Position X="38.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\TextCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Transform3DHelper" Collapsed="true">
+    <Position X="43.5" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Transform3DHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Viewport3DHelper" Collapsed="true">
+    <Position X="38.25" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAkAABACBIgAgAAEQABihBAAkmAECAgAAAAAAEDEECA=</HashCode>
+      <FileName>Helpers\Viewport3DHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Visual3DHelper" Collapsed="true">
+    <Position X="40" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAQAqAAAAAAABCAAEAAAAIQAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Helpers\Visual3DHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.RenderingEventListener" Collapsed="true">
+    <Position X="22.5" Y="4.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\WeakEventListeners\RenderingEventListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.WeakEventListener&lt;TEventManager, TEventArgs&gt;" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\WeakEventListeners\WeakEventListener{TEventManager,TEventArgs}.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.RenderingEventManager" Collapsed="true">
+    <Position X="0.5" Y="12" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIA=</HashCode>
+      <FileName>Helpers\WeakEventManagers\RenderingEventManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.WeakEventManagerBase&lt;TManager&gt;" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIABAAAAAAAAAAAAAAIAAAAAAAUAAAAIA=</HashCode>
+      <FileName>Helpers\WeakEventManagers\WeakEventManagerBase{TManager}.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.XamlHelper" Collapsed="true">
+    <Position X="41.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\XamlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Importers" Collapsed="true">
+    <Position X="48.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importers\Importers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.LwoReader" Collapsed="true">
+    <Position X="19.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAAAAAABARgAAAAwAUAAAgAAIAAQAAAAAIgAABAAA=</HashCode>
+      <FileName>Importers\LwoReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ModelImporter" Collapsed="true">
+    <Position X="48.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importers\ModelImporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ModelReader" Collapsed="true">
+    <Position X="15.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAAAAAAAAAAAAAgAAAgAACAAAAAAAAAAAAAIAI=</HashCode>
+      <FileName>Importers\ModelReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ObjReader" Collapsed="true">
+    <Position X="10.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAAEgAEAAAwpAAAEBsKoAgAAAgEiAUQBAAgAABAAA=</HashCode>
+      <FileName>Importers\ObjReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.OffReader" Collapsed="true">
+    <Position X="13" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAMABAAAAAAAAIAAAoAAAAAAAAEAAAAAEAAAA=</HashCode>
+      <FileName>Importers\OffReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.StLReader" Collapsed="true">
+    <Position X="15.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEBACAgAAKQAAQAEAAAAAAAgAAYAAAAAAAARgACBAII=</HashCode>
+      <FileName>Importers\StLReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.StudioReader" Collapsed="true">
+    <Position X="17.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAIAgBAxAAAIAAAAAAAhEQAAAQACAAAQAABAAEA=</HashCode>
+      <FileName>Importers\StudioReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.GradientExtension" Collapsed="true">
+    <Position X="38.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MarkupExtensions\GradientExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ImageBrushExtension" Collapsed="true">
+    <Position X="45.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MarkupExtensions\ImageBrushExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ImageMaterialExtension" Collapsed="true">
+    <Position X="47" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgGAAAAAgAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MarkupExtensions\ImageMaterialExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.KeyGestureExtension" Collapsed="true">
+    <Position X="54" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>MarkupExtensions\KeyGestureExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.LinearGradientBrushExtension" Collapsed="true">
+    <Position X="41.75" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MarkupExtensions\LinearGradientBrushExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.MaterialExtension" Collapsed="true">
+    <Position X="48.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAAAAAAQAAAAAAAAAAAAAAAAAACAAAAAAAQAAAA=</HashCode>
+      <FileName>MarkupExtensions\MaterialExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.PerspectiveCameraExtension" Collapsed="true">
+    <Position X="54" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAEAAAAAAgQAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>MarkupExtensions\PerspectiveCameraExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TranslateExtension" Collapsed="true">
+    <Position X="45.25" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>MarkupExtensions\TranslateExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.VerletIntegrator" Collapsed="true">
+    <Position X="52.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJBAAAAJAAEAkAgAAAAAAJBAIAAABAgAQAKACEAABA=</HashCode>
+      <FileName>Physics\VerletIntegrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Constraint" Collapsed="true">
+    <Position X="3" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Physics\VerletIntegrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.SphereConstraint" Collapsed="true">
+    <Position X="0.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAABAAAAAAIAAAAAAAAAAAAEAAAAIAAA=</HashCode>
+      <FileName>Physics\VerletIntegrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.FloorConstraint" Collapsed="true">
+    <Position X="3" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAEAAAEAAAAAAAA=</HashCode>
+      <FileName>Physics\VerletIntegrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.DistanceConstraint" Collapsed="true">
+    <Position X="5.25" Y="20.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAABAAAIIAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Physics\VerletIntegrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ModelsSelectedByPointEventArgs" Collapsed="true">
+    <Position X="21.5" Y="21" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SelectionCommands\ModelsSelectedByPointEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ModelsSelectedByRectangleEventArgs" Collapsed="true">
+    <Position X="23.75" Y="21" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SelectionCommands\ModelsSelectedByRectangleEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ModelsSelectedEventArgs" Collapsed="true">
+    <Position X="22.75" Y="19.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>SelectionCommands\ModelsSelectedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.PointSelectionCommand" Collapsed="true">
+    <Position X="16.5" Y="21.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAIAAAAAIAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>SelectionCommands\PointSelectionCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.RectangleSelectionCommand" Collapsed="true">
+    <Position X="18.75" Y="21.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgCAAAAAAAAIBCAAAAAAAgAIAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>SelectionCommands\RectangleSelectionCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.SelectionCommand" Collapsed="true">
+    <Position X="17.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAGAAYAAEAQAIAABBIAAACAIAAQAIACAAA=</HashCode>
+      <FileName>SelectionCommands\SelectionCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.AnaglyphEffect" Collapsed="true">
+    <Position X="38.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QiAAEAAgAAIAAAAAAAAgAAAAAAAAAACiACAAAAAIgAA=</HashCode>
+      <FileName>ShaderEffects\AnaglyphEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.InterlacedEffect" Collapsed="true">
+    <Position X="52.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QiAAEAAgAAIAABAAAAAAAAAAAAAAQACAACAAAAIIgAA=</HashCode>
+      <FileName>ShaderEffects\InterlacedEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BoundingBoxVisual3D" Collapsed="true">
+    <Position X="47" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAACABAQgAABCAACAAAIAABAAAAABA=</HashCode>
+      <FileName>Visual3Ds\Composite\BoundingBoxVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ClonedVisual3D" Collapsed="true">
+    <Position X="41.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAgAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Composite\ClonedVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.CoordinateSystemVisual3D" Collapsed="true">
+    <Position X="50.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQACAAAAAAAEgACAAAABAAAAAARAAAARAAA=</HashCode>
+      <FileName>Visual3Ds\Composite\CoordinateSystemVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.CuttingPlaneGroup" Collapsed="true">
+    <Position X="1" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAEECAAAAAAAABAAEEAAABQAACAAAEAgEAIAAAQAA=</HashCode>
+      <FileName>Visual3Ds\Composite\CuttingPlaneGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Expander3D" Collapsed="true">
+    <Position X="47" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAQgAABAAAAAAACAAAAAAwAAAAAAIAAAAAAAIA=</HashCode>
+      <FileName>Visual3Ds\Composite\Expander3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Exploder3D" Collapsed="true">
+    <Position X="48.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Visual3Ds\Composite\Exploder3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.FileModelVisual3D" Collapsed="true">
+    <Position X="52.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAgAAAEAAAACiAAAAAAAAIAAACAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Composite\FileModelVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.LightVisual3D" Collapsed="true">
+    <Position X="38.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAABgAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Composite\LightVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.MeshNormalsVisual3D" Collapsed="true">
+    <Position X="43.5" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAIQABgAAAAAI=</HashCode>
+      <FileName>Visual3Ds\Composite\MeshNormalsVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.MeshVisual3D" Collapsed="true">
+    <Position X="45.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AERCCggAAkEBAAQAAAQAAAAAAAAIQAkAAQAEgAAAAJA=</HashCode>
+      <FileName>Visual3Ds\Composite\MeshVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.PanoramaCube3D" Collapsed="true">
+    <Position X="52.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAgwAAgAAAAAAEgAAAAAAAIAAACAQABCAAAAA=</HashCode>
+      <FileName>Visual3Ds\Composite\PanoramaCube3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.RenderingModelVisual3D" Collapsed="true">
+    <Position X="7.75" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAEAAAAAEAIAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Composite\RenderingModelVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.SortingVisual3D" Collapsed="true">
+    <Position X="12.25" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAADEAAASAAAAAgAIAAEAAAAAQCEAAAIAAAIBA=</HashCode>
+      <FileName>Visual3Ds\Composite\SortingVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.VectorFieldVisual3D" Collapsed="true">
+    <Position X="50.5" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAgAAAAAAgQQAAAAAAAQAACAAADgABAAAIBAA=</HashCode>
+      <FileName>Visual3Ds\Composite\VectorFieldVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ViewCubeVisual3D" Collapsed="true">
+    <Position X="54" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EIAAAGAAPAEEwgA6DCWQAADAAQAQwCAIQCEABABIAIA=</HashCode>
+      <FileName>Visual3Ds\Composite\ViewCubeVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.DefaultLights" Collapsed="true">
+    <Position X="10.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\LightSetups\DefaultLights.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.DirectionalHeadLight" Collapsed="true">
+    <Position X="13" Y="16.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\LightSetups\DirectionalHeadLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.GenericHeadLight&lt;T&gt;" Collapsed="true">
+    <Position X="14.25" Y="15" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQBAIAAAgAAAAAgAAAAAAAAAAIBEABAAAAAgAAAAIQ=</HashCode>
+      <FileName>Visual3Ds\LightSetups\GenericHeadLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.LightSetup" Collapsed="true">
+    <Position X="15.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAgAAAAQAIAAAAEAAEAAAAAABAACABAA=</HashCode>
+      <FileName>Visual3Ds\LightSetups\LightSetup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.SpotHeadLight" Collapsed="true">
+    <Position X="15.25" Y="16.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\LightSetups\SpotHeadLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.SunLight" Collapsed="true">
+    <Position X="17.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QwAAAAAAAAAAAAAAAQAAgAAAAAAAEAAAAAAEAEAACIQ=</HashCode>
+      <FileName>Visual3Ds\LightSetups\SunLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ThreePointLights" Collapsed="true">
+    <Position X="19.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAAAABAAQAAQACAAMQAGEIBAAsgAAUAICAA=</HashCode>
+      <FileName>Visual3Ds\LightSetups\ThreePointLights.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BindableRotateManipulator" Collapsed="true">
+    <Position X="0.75" Y="15" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQMgBQAAAAAIQAAAAAAAABAAFABIAAAIAABAAACAAA=</HashCode>
+      <FileName>Visual3Ds\Manipulators\BindableRotateManipulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BindableTranslateManipulator" Collapsed="true">
+    <Position X="3" Y="15" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgBAAAAAAAAAAACAAAABAAFABAAAAIAABggAAAAA=</HashCode>
+      <FileName>Visual3Ds\Manipulators\BindableTranslateManipulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.CombinedManipulator" Collapsed="true">
+    <Position X="47" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>0QAGgQgAAAAMAIAgAIRAAwAACAAAAAAAJAAFAigAgAA=</HashCode>
+      <FileName>Visual3Ds\Manipulators\CombinedManipulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Manipulator" Collapsed="true">
+    <Position X="4" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QFACgAAAAAAIQAAwIAAUAAAAAEABAADAMAgkgAhKgAA=</HashCode>
+      <FileName>Visual3Ds\Manipulators\Manipulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.RotateManipulator" Collapsed="true">
+    <Position X="5.25" Y="15" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQMgBQAAAAAAQAAAAAAAABAABAAIAAAIAABAAACAAA=</HashCode>
+      <FileName>Visual3Ds\Manipulators\RotateManipulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TranslateManipulator" Collapsed="true">
+    <Position X="7.5" Y="15" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAgBAAAAAAAAAAACAAAABAABAAAAAAIAABggAAAAA=</HashCode>
+      <FileName>Visual3Ds\Manipulators\TranslateManipulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ArrowVisual3D" Collapsed="true">
+    <Position X="29" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAgAAAQCAAgAAAAAAAAAAAICABCAgABAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\ArrowVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BoxVisual3D" Collapsed="true">
+    <Position X="33.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiBAABAAAAEAgAACAAFBAAAAAAAAAAAAAAAgIABA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\BoxVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.CubeVisual3D" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAEAAAAgAAAAAAAAAAIAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\CubeVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.EllipsoidVisual3D" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAASAAAAAAAgIAAAGgAAAAAAQAAAAAAACAAoBAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\EllipsoidVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ExtrudedVisual3D" Collapsed="true">
+    <Position X="11" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAUgAAAMAAAAAIAAAAAIAQAA0AAAAAAQEABAJAAIAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\ExtrudedVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.GridLinesVisual3D" Collapsed="true">
+    <Position X="13.25" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQgqBAADAABAAAiAgAAgEBAAAAIAEAIBAAAAABIAAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\GridLinesVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.HelixVisual3D" Collapsed="true">
+    <Position X="17.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIABAAAAAAAAAAAAAAAgBAAAAAAIAAIEABCgiABAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\HelixVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.MeshElement3D" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gFBAgAAACAAAAABAIABEiAAAFAAQCAAYCAwAAAAwABA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\MeshElement3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.MeshGeometryVisual3D" Collapsed="true">
+    <Position X="15.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\MeshGeometryVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ParametricSurface3D" Collapsed="true">
+    <Position X="17.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABgAABAAAAAAAAAAAAAgAAAAQAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\ParametricSurface3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ParticleSystem" Collapsed="true">
+    <Position X="10" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AESBwELASqYCEBAjBAwQAAABAAgFQKBJAQMFYCIIAkQ=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\ParticleSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.PieSliceVisual3D" Collapsed="true">
+    <Position X="20" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAggAAAAAAAABAgAQAAIAAAABAIAAQAAAAICIAIBgA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\PieSliceVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.PipeVisual3D" Collapsed="true">
+    <Position X="22.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAQAAAAAgAAAAAAAgAAAAAAAIAAAIAABCAAABAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\PipeVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.QuadVisual3D" Collapsed="true">
+    <Position X="24.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\QuadVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.RectangleVisual3D" Collapsed="true">
+    <Position X="26.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgiBAACAIAAAAgAAAAAFBAAAgIAIAAAAAAAAgAAAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\RectangleVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.SphereVisual3D" Collapsed="true">
+    <Position X="31.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIgAACAAAAAAAgIAAAAAAAAAAAAAAAAAAACAAIBAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\SphereVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Teapot" Collapsed="true">
+    <Position X="35.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAQAAAABAAgQAAAACCAAAAAAAhAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\TestModels\Teapot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TorusVisual3D">
+    <Position X="4.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACCAAAAAAAAIAAAAAIEAAAAIAAAAAAACAAABAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\TorusVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TruncatedConeVisual3D" Collapsed="true">
+    <Position X="8.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAggAAABAABACAAAACBABBAAIAIAIAAAEAACAgABAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\TruncatedConeVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TubeVisual3D" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAgAAgAAAAAIAAAAAAAAABAAAAAAAAIAABCAAABAA=</HashCode>
+      <FileName>Visual3Ds\MeshVisuals\TubeVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BillboardVisual3D" Collapsed="true">
+    <Position X="3.25" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gFADqAAgBAAgAAAgoAAAAFAEEAAIAQBAAQwAIAAQACA=</HashCode>
+      <FileName>Visual3Ds\ScreenSpaceVisuals\BillboardVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BoundingBoxWireFrameVisual3D" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAQgAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\ScreenSpaceVisuals\BoundingBoxWireFrameVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.LinesVisual3D" Collapsed="true">
+    <Position X="5.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAAABAAAAAAAAAAAAAAAIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\ScreenSpaceVisuals\LinesVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.PointsVisual3D" Collapsed="true">
+    <Position X="7.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAAAAgAAAAAAAAAAAAAAIAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Visual3Ds\ScreenSpaceVisuals\PointsVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.ScreenSpaceVisual3D" Collapsed="true">
+    <Position X="6.75" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAADoAAAAAAggCAAAAAAgABABAABAUAAAQwAoIBAACA=</HashCode>
+      <FileName>Visual3Ds\ScreenSpaceVisuals\ScreenSpaceVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TerrainModel" Collapsed="true">
+    <Position X="52.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAABAAACAAAAAAYAEAAAgAIADABCAKAAAAAgAA=</HashCode>
+      <FileName>Visual3Ds\Terrain\TerrainModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TerrainVisual3D" Collapsed="true">
+    <Position X="54" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAgAAAAAAAAAEAAAAAAAAIAAACAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Terrain\TerrainVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.MapTexture" Collapsed="true">
+    <Position X="18.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAACAIAAAACACAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Terrain\Textures\MapTexture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.SlopeDirectionTexture" Collapsed="true">
+    <Position X="21" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Terrain\Textures\SlopeDirectionTexture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.SlopeTexture" Collapsed="true">
+    <Position X="23.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Terrain\Textures\SlopeTexture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TerrainTexture" Collapsed="true">
+    <Position X="21" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Terrain\Textures\TerrainTexture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BillboardTextGroupVisual3D" Collapsed="true">
+    <Position X="14.5" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEDsHAAQBAAChACABFAigAwAABIAAACAAIgIAAIlCA=</HashCode>
+      <FileName>Visual3Ds\Text\BillboardTextGroupVisual3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BillboardTextItem" Collapsed="true">
+    <Position X="20.5" Y="17.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Text\BillboardTextItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.BillboardTextVisual3D" Collapsed="true">
+    <Position X="3.25" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAkAEDAAABIAAAACABFACgAwAABAAAAAEAIgCAAAECA=</HashCode>
+      <FileName>Visual3Ds\Text\BillboardTextVisual3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.Wpf.SpatialTextItem" Collapsed="true">
+    <Position X="22.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Text\SpatialTextItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TextGroupVisual3D" Collapsed="true">
+    <Position X="40" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAEAEDBATBAACAACABEAChAwAAFAAAAAAAIgAAAAGCA=</HashCode>
+      <FileName>Visual3Ds\Text\TextGroupVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TextItem" Collapsed="true">
+    <Position X="21.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAggAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Text\TextItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.TextVisual3D" Collapsed="true">
+    <Position X="41.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAEDBgBBAAAAAiwBEgGjA0AAFAAABAEAIgCAAAGCA=</HashCode>
+      <FileName>Visual3Ds\Text\TextVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.Wpf.Properties.Resources" Collapsed="true">
+    <Position X="54" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="HelixToolkit.Wpf.IHelixViewport3D" Collapsed="true">
+    <Position X="41.75" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAEAAAAAIAIBgAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\IHelixViewport3D.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HelixToolkit.Wpf.IExporter" Collapsed="true">
+    <Position X="40" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exporters\IExporter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HelixToolkit.Wpf.IBoundsIgnoredVisual3D" Collapsed="true">
+    <Position X="38.25" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\IBoundsIgnoredVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HelixToolkit.Wpf.IModelReader" Collapsed="true">
+    <Position X="43.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importers\IModelReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="HelixToolkit.Wpf.PolygonPointClass" Collapsed="true">
+    <Position X="48.75" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAEAAAAQAQIAAAAAAAAAA=</HashCode>
+      <FileName>E:\anzhenghe\gitlab-azh\chongqinglin\lasercutting2d\LaserCutting2D\Simulation\helix-toolkit\Source\HelixToolkit.Shared\Geometry\SweepLinePolygonTriangulator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.Wpf.CameraMode" Collapsed="true">
+    <Position X="40" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAgAAA=</HashCode>
+      <FileName>Controls\CameraController\CameraMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.Wpf.CameraRotationMode" Collapsed="true">
+    <Position X="41.75" Y="11.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAIAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\CameraController\CameraRotationMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.Wpf.ColorAxisPosition" Collapsed="true">
+    <Position X="43.5" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>Controls\ColorAxis\ColorAxisPosition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.Wpf.SubdivisionScheme" Collapsed="true">
+    <Position X="54" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\LoopSubdivision.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.Wpf.SelectionHitMode" Collapsed="true">
+    <Position X="50.5" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABAAAAA=</HashCode>
+      <FileName>SelectionCommands\SelectionHitMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.Wpf.AnaglyphMethod" Collapsed="true">
+    <Position X="38.25" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABEAACAAAAAAAgAAAAAAAAAAAAAAIAAgAAAAAA=</HashCode>
+      <FileName>ShaderEffects\AnaglyphMethod.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.Wpf.CuttingOperation" Collapsed="true">
+    <Position X="45.25" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Composite\CuttingPlaneGroup.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.Wpf.SortingMethod" Collapsed="true">
+    <Position X="52.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQACAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Composite\SortingVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.Wpf.MaterialType" Collapsed="true">
+    <Position X="47" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visual3Ds\Text\BillboardTextVisual3D.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -14,12 +14,14 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Animation;
 
     /// <summary>
+    /// 提供可动画对象的扩展方法。
     /// Provides extension methods for animatable objects.
     /// </summary>
     public static class AnimationExtensions
     {
         /// <summary>
-        /// Animates the opacity of the specified object.
+        /// 对指定对象的不透明度进行动画处理。
+        /// Animates the opacity of the specified object. 
         /// </summary>
         /// <param name="obj">
         /// The object to animate.

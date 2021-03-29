@@ -13,6 +13,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
 
     /// <summary>
+    /// 显示两个点之间的管道的可视元素。
     /// A visual element that shows a pipe between two points.
     /// </summary>
     public class PipeVisual3D : MeshElement3D

@@ -49,14 +49,14 @@
             </MenuItem>
         </Menu>
         <StatusBar DockPanel.Dock="Bottom">
-            <Label Content="Model:" Margin="0 0 4 0"/>
+            <Label Content="模型Model:" Margin="0 0 4 0"/>
             <ComboBox Name="model" DisplayMemberPath="Title" Width="100" SelectionChanged="model_SelectionChanged">
                 <local:ModelItem Title="Cubes"/>
                 <local:ModelItem Title="Semi-submersible" Model="{StaticResource SemiSubmersible}"/>
             </ComboBox>
-            <Label Content="Method:" Margin="10 0 4 0"/>
+            <Label Content="方法Method:" Margin="10 0 4 0"/>
             <ComboBox Name="method" ItemsSource="{Binding Source={StaticResource methods}}" SelectedIndex="5" Width="100"/>
-            <Label Content="Stereobase:" Margin="10 0 4 0"/>
+            <Label Content="立体碱Stereobase:" Margin="10 0 4 0"/>
             <Slider Name="stereoBase" Minimum="0" Maximum="5" Value="0.15" Width="100"/>
             <TextBlock Text="{Binding Value, ElementName=stereoBase, StringFormat={}{0:0.000}}" Padding="4 0 4 0"/>
         </StatusBar>

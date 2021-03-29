@@ -22,6 +22,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
 
     /// <summary>
+    /// 包含<see cref ="Viewport3D" />和<see cref =" CameraController"/>的控件
     /// A control that contains a <see cref="Viewport3D" /> and a <see cref="CameraController" />.
     /// </summary>
     [ContentProperty("Children")]
@@ -34,6 +35,7 @@ namespace HelixToolkit.Wpf
     public class HelixViewport3D : ItemsControl, IHelixViewport3D
     {
         /// <summary>
+        /// 标识<see cref ="BackViewGesture" />依赖项属性。
         /// Identifies the <see cref="BackViewGesture"/> dependency property.
         /// </summary>
         public static readonly DependencyProperty BackViewGestureProperty =
@@ -99,6 +101,7 @@ namespace HelixToolkit.Wpf
                 new UIPropertyMetadata(Cursors.ScrollNS));
 
         /// <summary>
+        /// 标识<see cref ="ChangeFieldOfViewGesture" />依赖项属性。
         /// Identifies the <see cref="ChangeFieldOfViewGesture"/> dependency property.
         /// </summary>
         public static readonly DependencyProperty ChangeFieldOfViewGestureProperty =
@@ -979,6 +982,7 @@ namespace HelixToolkit.Wpf
         private Model3DGroup viewCubeLights;
 
         /// <summary>
+        /// 视图多维数据集视图。
         /// The view cube view.
         /// </summary>
         private Viewport3D viewCubeViewport;
@@ -1733,6 +1737,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 获取或设置一个值，该值指示是否启用无限旋转。
         /// Gets or sets a value indicating whether to enable infinite spin.
         /// </summary>
         /// <value>
@@ -1997,7 +2002,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
-        /// Gets the lights.
+        /// 获取灯光。 Gets the lights.
         /// </summary>
         /// <value>
         /// The lights.
@@ -2239,6 +2244,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 获取或设置一个值，该值指示是否围绕鼠标下移点旋转。
         /// Gets or sets a value indicating whether to rotate around the mouse down point.
         /// </summary>
         /// <value>
@@ -2315,6 +2321,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 获取或设置旋转灵敏度。
         /// Gets or sets the rotation sensitivity.
         /// </summary>
         /// <value>
@@ -3061,6 +3068,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 获取或设置缩放灵敏度。
         /// Gets or sets the zoom sensitivity.
         /// </summary>
         /// <value>
@@ -3080,6 +3088,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 更改相机方向。
         /// Changes the camera direction.
         /// </summary>
         /// <param name="newDirection">
@@ -3336,18 +3345,23 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 设置相机的位置和方向。
         /// Sets the camera position and orientation.
         /// </summary>
         /// <param name="newPosition">
+        /// 新的相机位置。
         /// The new camera position.
         /// </param>
         /// <param name="newDirection">
+        /// 新相机的外观方向。
         /// The new camera look direction.
         /// </param>
         /// <param name="newUpDirection">
+        /// 新的相机向上方向。
         /// The new camera up direction.
         /// </param>
         /// <param name="animationTime">
+        /// 动画时间。
         /// The animation time.
         /// </param>
         public void SetView(Point3D newPosition, Vector3D newDirection, Vector3D newUpDirection, double animationTime = 0)
@@ -3367,6 +3381,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 缩放到屏幕范围。根据屏幕范围（大小）缩放。
         /// Zooms to the extents of the screen.
         /// </summary>
         /// <param name="animationTime">
@@ -3526,6 +3541,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 当未处理的MouseMove附加事件在其路由中到达派生自此类的元素时，调用此方法。
         /// Invoked when an unhandled MouseMove attached event reaches an element in its route that is derived from this class.
         /// </summary>
         /// <param name="e">
@@ -3850,6 +3866,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 更新呈现事件订阅。
         /// Updates the rendering event subscription.
         /// </summary>
         private void UpdateRenderingEventSubscription()
@@ -3865,6 +3882,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 处理鼠标在视图多维数据集上的输入事件。
         /// Handles the mouse enter events on the view cube.
         /// </summary>
         /// <param name="sender">
@@ -3879,6 +3897,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 处理视图多维数据集上的鼠标离开事件。
         /// Handles the mouse leave events on the view cube.
         /// </summary>
         /// <param name="sender">

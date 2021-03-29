@@ -46,18 +46,27 @@ namespace LightsDemo
             private double headlightLateralPosition = 30;
             private double headlightVerticalPosition = 10;
 
+            /// <summary>
+            /// 周围的
+            /// </summary>
             public double Ambient
             {
                 get { return this.ambient; }
                 set { this.SetValue(ref this.ambient, value, () => this.Ambient); }
             }
 
+            /// <summary>
+            /// 方位角
+            /// </summary>
             public double Azimuth
             {
                 get { return this.azimuth; }
                 set { this.SetValue(ref this.azimuth, value, () => this.Azimuth); }
             }
 
+            /// <summary>
+            /// 高度
+            /// </summary>
             public double Altitude
             {
                 get { return this.altitude; }
@@ -94,12 +103,18 @@ namespace LightsDemo
                 set { this.SetValue(ref this.specularPower, value, () => this.SpecularPower); RaisePropertyChanged(() => this.GreenMaterial); RaisePropertyChanged(() => this.BlueMaterial); }
             }
 
+            /// <summary>
+            /// 头灯侧面位置
+            /// </summary>
             public double HeadlightLateralPosition
             {
                 get { return this.headlightLateralPosition; }
                 set { this.SetValue(ref this.headlightLateralPosition, value, () => this.HeadlightLateralPosition); RaisePropertyChanged(() => this.Headlight1); RaisePropertyChanged(() => this.Headlight2); }
             }
 
+            /// <summary>
+            /// 头灯垂直位置
+            /// </summary>
             public double HeadlightVerticalPosition
             {
                 get { return this.headlightVerticalPosition; }
@@ -128,11 +143,16 @@ namespace LightsDemo
                 }
             }
 
+            /// <summary>
+            /// 头灯1位置。
+            /// </summary>
             public Point3D Headlight1
             {
                 get { return new Point3D(this.HeadlightLateralPosition, 0, this.HeadlightVerticalPosition); }
             }
-
+            /// <summary>
+            /// 头灯2位置。
+            /// </summary>
             public Point3D Headlight2
             {
                 get { return new Point3D(-this.HeadlightLateralPosition, 0, this.HeadlightVerticalPosition); }

@@ -15,6 +15,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
 
     /// <summary>
+    /// 显示由原点，法线，长度和宽度定义的3D矩形的可视元素。
     /// A visual element that shows a 3D rectangle defined by origin, normal, length and width.
     /// </summary>
     public class RectangleVisual3D : MeshElement3D

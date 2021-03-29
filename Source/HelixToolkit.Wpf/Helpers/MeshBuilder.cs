@@ -19,6 +19,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
 
     /// <summary>
+    /// 网格生成器,建立MeshGeometry3D对象。
     /// Builds MeshGeometry3D objects.
     /// </summary>
     /// <remarks>
@@ -124,6 +125,7 @@ namespace HelixToolkit.Wpf
         private IList<int> triangleIndices;
 
         /// <summary>
+        /// 初始化<see cref ="MeshBuilder" />类的新实例。
         /// Initializes a new instance of the <see cref="MeshBuilder"/> class.
         /// </summary>
         /// <remarks>
@@ -135,13 +137,14 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 初始化<see cref ="MeshBuilder" />类的新实例。
         /// Initializes a new instance of the <see cref="MeshBuilder"/> class.
         /// </summary>
         /// <param name="generateNormals">
-        /// Generate normal vectors.
+        /// 生成法线向量。Generate normal vectors.
         /// </param>
         /// <param name="generateTextureCoordinates">
-        /// Generate texture coordinates.
+        /// 生成纹理坐标。Generate texture coordinates.
         /// </param>
         public MeshBuilder(bool generateNormals, bool generateTextureCoordinates)
         {

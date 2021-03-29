@@ -270,6 +270,7 @@
     <None Include="Class diagrams\Media3D\MaterialDiagram.cd" />
     <None Include="Class diagrams\Media3D\ModelDiagram.cd" />
     <Resource Include="ShaderEffects\InterlacedEffect.ps" />
+    <None Include="HelixToolkitWpf.cd" />
     <None Include="HelixToolkit.snk" />
     <None Include="ShaderEffects\AnaglyphEffect.fx" />
     <Resource Include="ShaderEffects\AnaglyphEffect.ps" />

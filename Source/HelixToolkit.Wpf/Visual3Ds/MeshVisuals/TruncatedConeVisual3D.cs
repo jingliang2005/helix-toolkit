@@ -13,6 +13,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
 
     /// <summary>
+    /// 可视元素，显示由原点，高度，法线，底面和顶部半径定义的截锥。
     /// A visual element that shows a truncated cone defined by origin, height, normal, base- and top radius.
     /// </summary>
     public class TruncatedConeVisual3D : MeshElement3D

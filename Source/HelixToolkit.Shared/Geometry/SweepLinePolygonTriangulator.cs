@@ -23,6 +23,7 @@ namespace HelixToolkit.Wpf
 #endif
 
     /// <summary>
+    /// 使用扫描线算法对简单的多边形进行三角剖分
     /// Triangulate a simple Polygon with the Sweep-Line Algorithm
     /// </summary>
     /// <remarks>
@@ -506,6 +507,7 @@ namespace HelixToolkit.Wpf
     }
 
     /// <summary>
+    /// 在对角线的计算过程中使用的辅助类。
     /// Helper Class that is used in the calculation Process of the Diagonals.
     /// </summary>
     internal class StatusHelper
@@ -587,6 +589,7 @@ namespace HelixToolkit.Wpf
     }
 
     /// <summary>
+    /// 在对角线的计算过程中使用的辅助类。
     /// Helper Class that is used in the calculation Process of the Diagonals.
     /// </summary>
     internal class StatusHelperElement
@@ -640,6 +643,7 @@ namespace HelixToolkit.Wpf
     }
 
     /// <summary>
+    /// PolygonData对象的帮助程序类。
     /// Helper Class for the PolygonData Object.
     /// </summary>
     internal class PolygonPoint : IComparable<PolygonPoint>
@@ -956,6 +960,7 @@ namespace HelixToolkit.Wpf
     }
 
     /// <summary>
+    /// 多边形三角剖分的辅助类。
     /// Helper Class for the Polygon-Triangulation.
     /// </summary>
     internal class PolygonData
@@ -1044,6 +1049,7 @@ namespace HelixToolkit.Wpf
         { }
 
         /// <summary>
+        /// 将孔的点添加到PolygonData
         /// Add Points of a Hole to the PolygonData
         /// </summary>
         /// <param name="points">The Points that define the Hole in the Polygon</param>

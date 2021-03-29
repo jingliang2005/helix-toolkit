@@ -21,6 +21,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Shapes;
 
     /// <summary>
+    /// 在WPF的限制内渲染一个简单的粒子系统。
     /// Renders a simple particle system within the limitations of WPF.
     /// </summary>
     public class ParticleSystem : RenderingModelVisual3D

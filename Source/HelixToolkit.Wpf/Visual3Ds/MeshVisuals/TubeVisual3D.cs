@@ -14,6 +14,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
     using System.Linq;
     /// <summary>
+    /// 可视元素，显示沿指定路径的管。
     /// A visual element that shows a tube along a specified path.
     /// </summary>
     /// <remarks>
@@ -56,6 +57,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 获取或设置管的直径。
         /// Gets or sets the diameter of the tube.
         /// </summary>
         /// <value>The diameter of the tube.</value>
@@ -90,6 +92,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 获取或设置创建上限指标。
         /// Gets or sets the create Caps indicator.
         /// </summary>
         /// <value>True if Caps should be generated.</value>

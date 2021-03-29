@@ -13,6 +13,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
 
     /// <summary>
+    /// 视觉元素，显示由中心和半径定义的球体。
     /// A visual element that shows a sphere defined by center and radius.
     /// </summary>
     public class SphereVisual3D : MeshElement3D

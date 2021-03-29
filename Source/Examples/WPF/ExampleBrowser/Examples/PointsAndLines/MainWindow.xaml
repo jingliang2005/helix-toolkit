@@ -10,10 +10,10 @@
             <MenuItem Header="File">
                 <MenuItem Header="Exit" Click="ExitClick"/>
             </MenuItem>
-            <MenuItem Header="Content">
+            <MenuItem Header="内容Content">
                 <MenuItem Header="HelixToolkit.LinesVisual3D" IsCheckable="True" IsChecked="{Binding ShowLinesVisual3D}"/>
                 <MenuItem Header="HelixToolkit.PointsVisual3D" IsCheckable="True" IsChecked="{Binding ShowPointsVisual3D}"/>
-                <MenuItem Header="3DTools.ScreenSpaceLines3D" IsCheckable="True" IsChecked="{Binding ShowScreenSpaceLines3D}"/>
+                <MenuItem Header="3D工具 屏幕空间线3D 3DTools.ScreenSpaceLines3D" IsCheckable="True" IsChecked="{Binding ShowScreenSpaceLines3D}"/>
                 <MenuItem Header="Petzold.Media3D.Wirelines" IsCheckable="True" IsChecked="{Binding ShowWireLines}"/>
             </MenuItem>
         </Menu>

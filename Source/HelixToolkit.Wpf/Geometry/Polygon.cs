@@ -10,8 +10,9 @@
 namespace HelixToolkit.Wpf
 {
     using System.Windows.Media;
-    
+
     /// <summary>
+    /// 表示2D多边形。
     /// Represents a 2D polygon.
     /// </summary>
     public class Polygon
@@ -41,6 +42,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 使用扫掠线算法对多边形进行三角剖分
         /// Triangulate the polygon by using the sweep line algorithm
         /// </summary>
         /// <returns>An index collection.</returns>

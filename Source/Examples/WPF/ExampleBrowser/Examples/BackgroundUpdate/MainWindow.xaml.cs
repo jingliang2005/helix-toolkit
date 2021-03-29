@@ -26,7 +26,7 @@ namespace BackgroundUpdateDemo
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    [Example(null, "Updates the visual model in a background thread.")]
+    [Example(null, "在后台线程中更新视觉模型。Updates the visual model in a background thread.")]
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
         private CancellationTokenSource source;
@@ -117,6 +117,7 @@ namespace BackgroundUpdateDemo
                 this.OnPropertyChanged("Count4");
             }
         }
+       
         void MainWindowClosing(object sender, CancelEventArgs e)
         {
             this.source.Cancel();

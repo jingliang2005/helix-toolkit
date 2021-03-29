@@ -15,6 +15,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
 
     /// <summary>
+    /// 可视元素，显示由中心，法线，上向量，内半径和外半径，起始角和终止角定义的平面饼图。
     /// A visual element that shows a flat pie slice defined by center, normal, up vectors, inner and outer radius, start and end angles.
     /// </summary>
     public class PieSliceVisual3D : MeshElement3D

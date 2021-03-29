@@ -12,6 +12,7 @@ namespace HelixToolkit.Wpf
     using System.Windows;
 
     /// <summary>
+    /// 包含一组线段的视觉元素。 线的粗细在屏幕空间中定义。
     /// A visual element that contains a set of line segments. The thickness of the lines is defined in screen space.
     /// </summary>
     public class LinesVisual3D : ScreenSpaceVisual3D

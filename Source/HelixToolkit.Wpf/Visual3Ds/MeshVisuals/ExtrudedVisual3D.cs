@@ -14,6 +14,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
 
     /// <summary>
+    /// 沿路径拉伸截面的视觉元素。
     /// A visual element that extrudes a section along a path.
     /// </summary>
     /// <remarks>
@@ -149,6 +150,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 获取或设置路径。
         /// Gets or sets the path.
         /// </summary>
         /// <value> The path. </value>
@@ -166,6 +168,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 获取或设置段。
         /// Gets or sets the section.
         /// </summary>
         /// <value> The section. </value>

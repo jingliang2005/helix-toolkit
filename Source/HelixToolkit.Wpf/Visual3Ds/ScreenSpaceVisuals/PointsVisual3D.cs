@@ -12,6 +12,7 @@ namespace HelixToolkit.Wpf
     using System.Windows;
 
     /// <summary>
+    /// 包含一组点的视觉元素。 点的大小在屏幕空间中定义。
     /// A visual element that contains a set of points. The size of the points is defined in screen space.
     /// </summary>
     public class PointsVisual3D : ScreenSpaceVisual3D

@@ -34,7 +34,7 @@ namespace HelixToolkit.Wpf
         /// </summary>
         /// <value>The lights.</value>
         Model3DGroup Lights { get; }
-
+         
         /// <summary>
         /// Gets the viewport.
         /// </summary>
@@ -52,6 +52,7 @@ namespace HelixToolkit.Wpf
         void CopyXaml();
 
         /// <summary>
+        /// 将视图导出到指定的文件名。
         /// Exports the view to the specified file name.
         /// </summary>
         /// <param name="fileName">
@@ -60,6 +61,7 @@ namespace HelixToolkit.Wpf
         void Export(string fileName);
 
         /// <summary>
+        /// 缩放到一定程度。
         /// Zooms to extents.
         /// </summary>
         /// <param name="animationTime">

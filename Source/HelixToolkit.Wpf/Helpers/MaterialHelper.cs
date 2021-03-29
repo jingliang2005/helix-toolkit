@@ -126,6 +126,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 创建指定颜色的材料。
         /// Creates a material for the specified color.
         /// </summary>
         /// <param name="color">The color.</param>

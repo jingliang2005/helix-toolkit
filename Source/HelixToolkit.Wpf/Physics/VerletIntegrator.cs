@@ -14,6 +14,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
 
     /// <summary>
+    /// 提供Verlet积分器。
     /// Provides a verlet integrator.
     /// </summary>
     /// <remarks>
@@ -269,6 +270,7 @@ namespace HelixToolkit.Wpf
         }
 
         /// <summary>
+        /// 变换位置。
         /// Transfers the positions.
         /// </summary>
         /// <param name="mesh">

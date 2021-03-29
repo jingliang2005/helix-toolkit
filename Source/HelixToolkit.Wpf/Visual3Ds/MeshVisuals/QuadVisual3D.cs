@@ -13,6 +13,7 @@ namespace HelixToolkit.Wpf
     using System.Windows.Media.Media3D;
 
     /// <summary>
+    /// 显示四边形多边形的视觉元素。
     /// A visual element that displays a quadrilateral polygon.
     /// </summary>
     /// <remarks>

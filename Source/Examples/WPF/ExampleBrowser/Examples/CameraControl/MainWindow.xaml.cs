@@ -16,7 +16,7 @@ namespace CameraControlDemo
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    [Example(null, "Shows the camera options in the HelixViewport3D.")]
+    [Example(null, "在HelixViewport3D中显示相机选项。Shows the camera options in the HelixViewport3D.")]
     public partial class MainWindow : Window
     {
         public MainWindow()
